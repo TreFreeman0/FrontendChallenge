@@ -1,4 +1,4 @@
-# Frontend Mentor - Social media dashboard with theme Dancer
+# Frontend Mentor - Social media dashboard with theme Whore
 
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
 
