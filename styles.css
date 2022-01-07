@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color:white;
+    background-color:#1e202c ;
+}
+.wrapper{
+    margin: 0 auto;
+    outline: 2px solid white;
+    overflow: hidden;
+    max-width: 1300px;
+    min-width: 1300px;
+}
+.header{
+    height: 100px;
+
+}
+.header h1 p{
+    float: left;
+}
+.dark-mode-header{
+    text-align: right;
+}
+
+.dark-mode-header h3{
+    position: relative;
+    bottom: 30px;
+    right:100px;
+}
+.dark-mode-header button{
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+    border-radius: 10px;
+    
+}
+/* Start of follower section */
+.follower-section{
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    text-align: center;
+}
+.follower-section h1,h4,h5,span{
+    padding-bottom: 20px;
+}
+
+.card{
+    /* outline: 1px palevioletred solid; */
+    float: left;
+    width: 22%;
+    margin-right: 10px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #252b43;
+    padding:10px;
+    
+}
+.card h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.card h4{
+    letter-spacing: 5px;
+    font-size: small;
+    text-transform: uppercase;
+}
+.card h5{
+    display:inline-block;
+    vertical-align: middle;
+}
+.green{
+    color:green ;
+    font-weight: 800;
+}
+.red{
+    color: red;
+}
+.card img{
+padding-bottom: 3px;
+}
+.fb-card{
+    border-top-style: solid;
+    border-top-color:#198ef5;
+}
+.twit-card{
+    border-top-style: solid;
+    border-top-color:#1da1f2;
+}
+.insta-card{
+    border-top-style: solid;
+    border-top-color:#ec7b81
+}
+.tube-card{
+    border-top-style: solid;
+    border-top-color:#c2042b
+}
+/* End of follower section */
+.overview-data{
+    margin: 0 auto;
+}
+
+.overview-cards{
+    background-color: #252b43;
+    outline: 2px solid red;
+    float: left;
+    width: 20%;
+    max-width:276px ;
+    height: 120px;
+    padding:10px;
+    margin:20px;
+    border-radius: 10px;
+    border-top-style: solid;
+    text-align:left ;
+}
+.social-img {
+    float: right;
+    margin:-35px 10px 0 0;
+}
+.overview-cards h1  {
+    display: inline-block;
+    margin: 20px 10px;
+}
+.overview-cards h4  {
+    margin: 5px 10px;
+    padding: 10px;
+}
+.overview-cards span{
+    float: right;
+    /* outline: crimson 1px solid; */
+    margin: 30px 10px 10px 0;
+}
+.overview-cards img{
+    margin-bottom: 5px;
+}
